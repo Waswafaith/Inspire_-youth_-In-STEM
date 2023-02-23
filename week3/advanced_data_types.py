@@ -51,3 +51,12 @@ print(friend["hobby"])
 print(friend["course"])
 print(friend["weight"])
 print(friend["height"])
+#sets---->a collection of items used to store items in curly brackets
+my_fruits={"apple","banana","mango","pinneaple"}
+print(my_fruits)
+
+for fruit in my_fruits:
+    print(fruit)
+
+print(type(my_fruits))
+print(len(my_fruits))
