@@ -1,7 +1,7 @@
 #python Dates
 import datetime
 
-t_now = datetime.today()
+t_now = datetime._Date()
 print(t_now)
 from datetime import datetime
 
