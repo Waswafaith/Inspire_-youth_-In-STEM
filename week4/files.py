@@ -13,6 +13,6 @@ except FileNotFoundError:
 
 
 
-f =open("C:\\Users\USER\OneDrive\Documents\Inspire_Youths_In_STEM\week4\test.txt","r")
+f =open("C:\\Users\USER\OneDrive\Documents\Inspire_Youths_In_STEM\week4\test.txt",mode = "r")
 print(f.readlines())
 
