@@ -1,9 +1,35 @@
 body{
-    background-color:aquamarine
+    background-color:aquamarine;
+    font-family:Arial, Serif;
+    font-weight:bold;
+    font-size: 12px;
 }
 h1{
    font:size 40px;
-        color:black;
-        align-self:center;
-        font-family: 'Shantell Sans', cursive;  
+    color:black;
+    align-self:center;
+    font-family: 'Shantell Sans', cursive;  
     }
+#msg_button{
+    color:rgb(225, 24, 118);
+    margin:25px;
+    align-self:center;
+    background-color: rgb(234, 225, 243);
+    border:none;
+    border-radius: 10px;
+}
+#email_button{
+    color:red;
+    margin: 25px;
+    align-self: center;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+}
+p{
+    background-color: rgb(56, 18, 93);
+    color:antiquewhite;
+    font-size: x-large;
+    align-self: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
