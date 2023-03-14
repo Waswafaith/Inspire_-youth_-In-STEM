@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(images/jkuat.jpg); 
+    background-position: center;
+    background-size:contain;
+    position:relative;
+}
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: black;
+}
+.nav-links ul li a{
+    color: #091d2b;
+    text-decoration: none;
+    font-size: 10px;
+}
+.nav-links li{
+    color: rgb(46, 4, 4);
+}
+#main{
+    font-size: 19px;
+    color: rgb(24, 4, 25);
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #28032a;
+    border: 1px solid #8820d3;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    te
+}
+
+.hero-btn:hover{
+    border: 1px solid rgb(13, 2, 35);
+    background: rgb(68, 57, 195);
+    transition: 1s;
+}
+
+.text-box{
+    text-align: center;
+    font-size: 15px;
+}
+
